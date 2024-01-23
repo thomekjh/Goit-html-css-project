@@ -1,0 +1,46 @@
+.delivery-section {
+}
+
+.delivery-box {
+  display: flex;
+}
+
+.delivery-heading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.delivery-line {
+  background: #000;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 14px;
+}
+
+.delivery-container {
+}
+
+.delivery-list {
+  display: flex;
+  align-items: center;
+}
+
+.delivery-paragraph {
+  width: 232px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.delivery-image {
+  flex-shrink: 0;
+  margin-top: 35px;
+}
