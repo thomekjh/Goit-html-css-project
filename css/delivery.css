@@ -1,12 +1,9 @@
-.delivery-section {
-}
-
 .delivery-box {
   display: flex;
 }
 
 .delivery-heading {
-  color: #000;
+  color: var(--black);
   font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
@@ -15,7 +12,7 @@
 }
 
 .delivery-line {
-  background: #000;
+  background: var(--black);
   justify-content: center;
   margin-top: 35px;
   margin-left: 14px;
@@ -24,7 +21,7 @@
 }
 
 .delivery-container {
-  width: 100%;
+  max-width: 100%;
   padding-left: 0;
 }
 
@@ -36,7 +33,7 @@
 
 .delivery-paragraph {
   width: 232px;
-  color: #000;
+  color: var(--black);
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
@@ -48,6 +45,14 @@
 .delivery-image {
   flex-shrink: 0;
   margin-top: 35px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .delivery-section.delivery-image {
+    url("../image/image-delivery@2x.jpg");
+  }
 }
 
 @media (min-width: 768px) {
@@ -62,7 +67,7 @@
   }
 
   .delivery-container {
-    width: 100%;
+    max-width: 100%;
     padding-left: 24px;
   }
 
