@@ -145,17 +145,22 @@
         </li>
       </ul>
 
-      <img
-        class="delivery-image"
-        src="./image/image-delivery.jpg"
-        srcset="./image/image-delivery@x2.jpg"
-        alt="flowers"
-        width="320"
-        height="135"
-      />
+      <picture>
+        <source
+          srcset="./images/image-delivery-tablet.jpg"
+          srcset="./images/image-delivery-tablet@x2.jpg"
+          media="(min-width: 768px) and (max-width: 1158px)" />
+        <source
+          srcset="./images/image-delivery-desktop.jpg"
+          srcset="./images/image-delivery-desktop@x2.jpg"
+          media="(min-width: 1158px)" />
+        <img
+          src="./images/image-delivery-mobile.jpg"
+          srcset="./images/image-delivery-mobile@x2.jpg"
+          alt="flowers"
+          class="delivery-image"
+      /></picture>
     </section>
-
-    <include src="./partials/delivery.html"></include>
 
     <blog></blog>
     <footer></footer>
